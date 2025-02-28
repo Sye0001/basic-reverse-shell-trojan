@@ -1,5 +1,7 @@
 # 💻 Basic Reverse Shell
 
+<h1 style="background-color: yellow;"> SOFTWARE IS POSSIBLY OUTDATED | USE AT YOUR OWN RISK</h1>
+
 <p style="text-align: center; text-decoration: underline;">The script is a basic reverse shell that connects to a remote command-and-control (C&C) server. Here's a summary of its functionality:</p>
 
 <div style="display: flex; align-items: baseline;">
