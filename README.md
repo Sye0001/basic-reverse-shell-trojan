@@ -1,6 +1,6 @@
-# Basic Reverse Shell
+# 💻 Basic Reverse Shell
 
-<h1 style="text-align: center;">The script is a basic reverse shell that connects to a remote command-and-control (C&C) server. Here's a summary of its functionality:</h1>
+<p style="text-align: center;">The script is a basic reverse shell that connects to a remote command-and-control (C&C) server. Here's a summary of its functionality:</hp>
 
 <div style="display: flex; align-items: center;">
     <h4 style="margin: 0 10px 0 0;">1</h4>
