@@ -1,11 +1,23 @@
-# basic-reverse-shell
+# Basic Reverse Shell
 
-<h1>The script is a basic reverse shell that connects to a remote command-and-control (C&C) server. Here's a summary of its functionality:</h1>
+<h1 style="text-align: center;">The script is a basic reverse shell that connects to a remote command-and-control (C&C) server. Here's a summary of its functionality:</h1>
 
-<h4>1</h4> Autorun: <p>The script attempts to copy itself to the Windows Startup folder to ensure it runs automatically on system boot.</p>
+<div style="display: flex; align-items: center;">
+    <h4 style="margin: 0 10px 0 0;">1</h4>
+    <p><strong>Autorun:</strong> The script attempts to copy itself to the Windows Startup folder to ensure it runs automatically on system boot.</p>
+</div>
 
-<h2>2</h2> Connection:<p> It establishes a connection to a remote server specified by CCIP (IP address) and CCPORT (port).</p>
+<div style="display: flex; align-items: center;">
+    <h4 style="margin: 0 10px 0 0;">2</h4>
+    <p><strong>Connection:</strong> It establishes a connection to a remote server specified by <code>CCIP</code> (IP address) and <code>CCPORT</code> (port).</p>
+</div>
 
-<h2>3</h2> Command Execution: <p>Once connected, it listens for commands from the server, executes them on the victim's machine using subprocess, and sends the output back to the server.</p>
+<div style="display: flex; align-items: center;">
+    <h4 style="margin: 0 10px 0 0;">3</h4>
+    <p><strong>Command Execution:</strong> Once connected, it listens for commands from the server, executes them on the victim's machine using <code>subprocess</code>, and sends the output back to the server.</p>
+</div>
 
-<h2>4</h2> Persistence: <p>If the connection is lost, it continuously attempts to reconnect every 3 seconds.</p>
+<div style="display: flex; align-items: center;">
+    <h4 style="margin: 0 10px 0 0;">4</h4>
+    <p><strong>Persistence:</strong> If the connection is lost, it continuously attempts to reconnect every 3 seconds.</p>
+</div>
