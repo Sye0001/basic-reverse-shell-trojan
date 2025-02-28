@@ -1,8 +1,8 @@
 # basic-reverse-shell
 
-<h1>script is a basic reverse shell that connects to a remote command-and-control (C&C) server. Here's a summary of its functionality:</h1>
+<h1>The script is a basic reverse shell that connects to a remote command-and-control (C&C) server. Here's a summary of its functionality:</h1>
 
-<h2>1</h2> Autorun: <p>The script attempts to copy itself to the Windows Startup folder to ensure it runs automatically on system boot.</p>
+<h4>1</h4> Autorun: <p>The script attempts to copy itself to the Windows Startup folder to ensure it runs automatically on system boot.</p>
 
 <h2>2</h2> Connection:<p> It establishes a connection to a remote server specified by CCIP (IP address) and CCPORT (port).</p>
 
